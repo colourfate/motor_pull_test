@@ -5,6 +5,7 @@
 - **Build**: `pio run` (or use VS Code PlatformIO extension)
 - **Upload**: `pio run -t upload` (requires Pico in BOOTSEL mode)
 - **Monitor**: `pio device monitor`
+- **Build example**: `pio run -e <env_name>`
 
 ## Hardware Pinout (from requestment.md)
 
@@ -27,7 +28,7 @@
 
 - `src/main.cpp` - Main application code (auto throttle test)
 - `src/dshot.cpp` + `include/dshot.h` - DShot output driver
-- `src/ina226.cpp` + `include/ina226.h` - INA226 voltage/current sensor driver
+- `src/power_monitor.cpp` + `include/power_monitor.h` - INA226 voltage/current sensor driver
 - `src/hx711.cpp` + `include/hx711.h` - HX711 load cell driver
 - `src/display.cpp` + `include/display.h` - OLED display driver
 - `platformio.ini` - PlatformIO configuration
