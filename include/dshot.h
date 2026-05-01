@@ -6,11 +6,9 @@
 
 #define DSHOT_PIN       10
 #define DSHOT_SPEED     300
-#define MOTOR_POLES     14
+#define MOTOR_POLES     12
 
 void dshotInit();
 void dshotSetThrottle(uint16_t throttle);
-uint32_t dshotReadRPM();
-void dshotUpdateTelemetry();
 
 #endif
