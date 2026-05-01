@@ -29,7 +29,7 @@
 - `src/main.cpp` - Main application code (auto throttle test)
 - `src/dshot.cpp` + `include/dshot.h` - DShot output driver
 - `src/power_monitor.cpp` + `include/power_monitor.h` - INA226 voltage/current sensor driver
-- `src/hx711.cpp` + `include/hx711.h` - HX711 load cell driver
+- `src/thrust.cpp` + `include/thrust.h` - Thrust sensor driver (HX711 load cell)
 - `src/display.cpp` + `include/display.h` - OLED display driver
 - `platformio.ini` - PlatformIO configuration
 - `requestment.md` - Requirements specification
